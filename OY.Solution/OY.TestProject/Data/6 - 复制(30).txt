@@ -1,0 +1,4 @@
+﻿<wmsCycleCountQueryResponse>
+<result>处理结果： 1-成功， 2-失败</result>
+<remark>备注，如处理失败，此处可备注原因</remark>
+</wmsCycleCountQueryResponse>

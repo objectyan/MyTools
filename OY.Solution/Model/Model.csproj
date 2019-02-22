@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C893F4C8-5966-4EA5-810B-E82EC66B54CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountInfo.cs" />
+    <Compile Include="AccountStat.cs" />
+    <Compile Include="Activity.cs" />
+    <Compile Include="AddressReachableResult.cs" />
+    <Compile Include="AddressReachableTopResult.cs" />
+    <Compile Include="AddressResult.cs" />
+    <Compile Include="AfterSale.cs" />
+    <Compile Include="AndroidVlowUrl.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="ArticleBizOrder.cs" />
+    <Compile Include="ArticleSub.cs" />
+    <Compile Include="ArticleUserSubscribe.cs" />
+    <Compile Include="AuctionPVPairDO.cs" />
+    <Compile Include="AuctionSkuDO.cs" />
+    <Compile Include="BatchOperateResult.cs" />
+    <Compile Include="Brand.cs" />
+    <Compile Include="BrandCatControl.cs" />
+    <Compile Include="BrandCatControlInfo.cs" />
+    <Compile Include="BuyerRefund.cs" />
+    <Compile Include="CarriageDetail.cs" />
+    <Compile Include="CatBrandSaleProp.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="CategoryResult.cs" />
+    <Compile Include="CertPicInfo.cs" />
+    <Compile Include="CertTxtInfo.cs" />
+    <Compile Include="Cooperation.cs" />
+    <Compile Include="Coupon.cs" />
+    <Compile Include="CreateResult.cs" />
+    <Compile Include="DdItemVO.cs" />
+    <Compile Include="DdTopAuctionRuleVO.cs" />
+    <Compile Include="DdTopMenuDetailVO.cs" />
+    <Compile Include="DdTopPagination.cs" />
+    <Compile Include="DdTopPaginationForAgentOrder.cs" />
+    <Compile Include="DdTopReservedVO.cs" />
+    <Compile Include="DealerOrder.cs" />
+    <Compile Include="DealerOrderDetail.cs" />
+    <Compile Include="DeliveryAgentVO.cs" />
+    <Compile Include="DeliveryTemplate.cs" />
+    <Compile Include="DeliveryTime.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="DescModuleInfo.cs" />
+    <Compile Include="DianDianShop.cs" />
+    <Compile Include="DianDianShopPage.cs" />
+    <Compile Include="Discount.cs" />
+    <Compile Include="DiscountDetail.cs" />
+    <Compile Include="Distributor.cs" />
+    <Compile Include="Duty.cs" />
+    <Compile Include="EvalDetail.cs" />
+    <Compile Include="Evaluation.cs" />
+    <Compile Include="FavoriteItem.cs" />
+    <Compile Include="FavoriteShop.cs" />
+    <Compile Include="Feature.cs" />
+    <Compile Include="FenxiaoGrade.cs" />
+    <Compile Include="FenxiaoImage.cs" />
+    <Compile Include="FenxiaoItemRecord.cs" />
+    <Compile Include="FenxiaoPdu.cs" />
+    <Compile Include="FenxiaoProduct.cs" />
+    <Compile Include="FenxiaoSku.cs" />
+    <Compile Include="FoodSecurity.cs" />
+    <Compile Include="GradeDiscount.cs" />
+    <Compile Include="GroupMember.cs" />
+    <Compile Include="Hotel.cs" />
+    <Compile Include="HotelImage.cs" />
+    <Compile Include="HotelOrder.cs" />
+    <Compile Include="IdsModule.cs" />
+    <Compile Include="InventorySum.cs" />
+    <Compile Include="IpcInventoryDetailDo.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemCat.cs" />
+    <Compile Include="ItemDescModule.cs" />
+    <Compile Include="ItemImg.cs" />
+    <Compile Include="ItemProp.cs" />
+    <Compile Include="ItemTemplate.cs" />
+    <Compile Include="KfcSearchResult.cs" />
+    <Compile Include="LimitDiscount.cs" />
+    <Compile Include="LimitDiscountDetail.cs" />
+    <Compile Include="ListResult.cs" />
+    <Compile Include="LocalityLife.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="LoginLog.cs" />
+    <Compile Include="LoginUser.cs" />
+    <Compile Include="LogisticsCompany.cs" />
+    <Compile Include="LogisticServiceTag.cs" />
+    <Compile Include="LogisticsPartner.cs" />
+    <Compile Include="LogisticsService.cs" />
+    <Compile Include="LogisticsTag.cs" />
+    <Compile Include="Meal.cs" />
+    <Compile Include="ModularDescInfo.cs" />
+    <Compile Include="MpicVideo.cs" />
+    <Compile Include="NonreplyStatById.cs" />
+    <Compile Include="NonReplyStatOnDay.cs" />
+    <Compile Include="OnlineTimeById.cs" />
+    <Compile Include="OnlineTimesOnDay.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderAmount.cs" />
+    <Compile Include="OrderGoods.cs" />
+    <Compile Include="OrderGuest.cs" />
+    <Compile Include="OrderMessage.cs" />
+    <Compile Include="OutEntityItem.cs" />
+    <Compile Include="PackageItem.cs" />
+    <Compile Include="PaimaiInfo.cs" />
+    <Compile Include="PartnerDetail.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="Picture.cs" />
+    <Compile Include="PictureCategory.cs" />
+    <Compile Include="PicUrl.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductBooks.cs" />
+    <Compile Include="ProductCat.cs" />
+    <Compile Include="ProductExtraInfo.cs" />
+    <Compile Include="ProductImg.cs" />
+    <Compile Include="ProductPropImg.cs" />
+    <Compile Include="ProductSpec.cs" />
+    <Compile Include="Promotion.cs" />
+    <Compile Include="PromotionDetail.cs" />
+    <Compile Include="PromotionDisplayTop.cs" />
+    <Compile Include="PromotionInItem.cs" />
+    <Compile Include="PromotionInShop.cs" />
+    <Compile Include="PromotionMjs.cs" />
+    <Compile Include="PromotionO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyInputDO.cs" />
+    <Compile Include="PropImg.cs" />
+    <Compile Include="PropValue.cs" />
+    <Compile Include="PurchaseOrder.cs" />
+    <Compile Include="QrcodeDO.cs" />
+    <Compile Include="QueryPagination.cs" />
+    <Compile Include="Receiver.cs" />
+    <Compile Include="Refund.cs" />
+    <Compile Include="RefundDetail.cs" />
+    <Compile Include="RefundMessage.cs" />
+    <Compile Include="RefundRemindTimeout.cs" />
+    <Compile Include="ReplyStatById.cs" />
+    <Compile Include="ReplyStatOnDay.cs" />
+    <Compile Include="Requisition.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="RoomImage.cs" />
+    <Compile Include="RoomType.cs" />
+    <Compile Include="RootCategory.cs" />
+    <Compile Include="ScItem.cs" />
+    <Compile Include="ScItemMap.cs" />
+    <Compile Include="ScoreResult.cs" />
+    <Compile Include="SellerAuthorize.cs" />
+    <Compile Include="SellerCat.cs" />
+    <Compile Include="ServiceOrder.cs" />
+    <Compile Include="Shipping.cs" />
+    <Compile Include="Shop.cs" />
+    <Compile Include="ShopCat.cs" />
+    <Compile Include="ShopCityResult.cs" />
+    <Compile Include="ShopScore.cs" />
+    <Compile Include="Sku.cs" />
+    <Compile Include="SpuTemplateDO.cs" />
+    <Compile Include="StaffEvalStatById.cs" />
+    <Compile Include="StaffEvalStatOnDay.cs" />
+    <Compile Include="Store.cs" />
+    <Compile Include="StreamWeight.cs" />
+    <Compile Include="SubAccountInfo.cs" />
+    <Compile Include="SubPurchaseOrder.cs" />
+    <Compile Include="Subtask.cs" />
+    <Compile Include="SubUserFullInfo.cs" />
+    <Compile Include="SubUserInfo.cs" />
+    <Compile Include="SubUserPermission.cs" />
+    <Compile Include="SuiteConfDO.cs" />
+    <Compile Include="TakeoutOption.cs" />
+    <Compile Include="TakeoutShop.cs" />
+    <Compile Include="TakeoutShopPage.cs" />
+    <Compile Include="TakeoutShopSummaryInfo.cs" />
+    <Compile Include="TakeoutThirdOrder.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="Ticket.cs" />
+    <Compile Include="TicketEtc.cs" />
+    <Compile Include="TicketItem.cs" />
+    <Compile Include="TicketItemProcessResult.cs" />
+    <Compile Include="TipInfo.cs" />
+    <Compile Include="TmcGroup.cs" />
+    <Compile Include="TmcMessage.cs" />
+    <Compile Include="TmcUser.cs" />
+    <Compile Include="TopAuction.cs" />
+    <Compile Include="TopDeliveryAgentOrderVO.cs" />
+    <Compile Include="TopFee.cs" />
+    <Compile Include="TOPPaginator.cs" />
+    <Compile Include="TOPSearchResult.cs" />
+    <Compile Include="TopShop.cs" />
+    <Compile Include="TopShopGroupByCity.cs" />
+    <Compile Include="Trade.cs" />
+    <Compile Include="TradeAmount.cs" />
+    <Compile Include="TradeConfirmFee.cs" />
+    <Compile Include="TradeMonitor.cs" />
+    <Compile Include="TradeOrderInfo.cs" />
+    <Compile Include="TradeRate.cs" />
+    <Compile Include="TransitStepInfo.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserCredit.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="UserSubscribe.cs" />
+    <Compile Include="UserThirdAddress.cs" />
+    <Compile Include="Video.cs" />
+    <Compile Include="VideoItem.cs" />
+    <Compile Include="VideoPlayInfo.cs" />
+    <Compile Include="WaitingTimeById.cs" />
+    <Compile Include="WaitingTimesOnDay.cs" />
+    <Compile Include="WaybillAddress.cs" />
+    <Compile Include="WaybillApplyNewInfo.cs" />
+    <Compile Include="WaybillApplyPrintCheckInfo.cs" />
+    <Compile Include="WaybillApplySubscriptionInfo.cs" />
+    <Compile Include="WaybillApplyUpdateInfo.cs" />
+    <Compile Include="WaybillBranchAccount.cs" />
+    <Compile Include="WaybillDetailQueryInfo.cs" />
+    <Compile Include="WaybillProductType.cs" />
+    <Compile Include="WaybillServiceType.cs" />
+    <Compile Include="WlbAuthorization.cs" />
+    <Compile Include="WlbConsignMent.cs" />
+    <Compile Include="WlbInventory.cs" />
+    <Compile Include="WlbItem.cs" />
+    <Compile Include="WlbItemBatch.cs" />
+    <Compile Include="WlbItemBatchInventory.cs" />
+    <Compile Include="WlbItemInventory.cs" />
+    <Compile Include="WlbItemInventoryLog.cs" />
+    <Compile Include="WlbMessage.cs" />
+    <Compile Include="WlbOrder.cs" />
+    <Compile Include="WlbOrderDetail.cs" />
+    <Compile Include="WlbOrderItem.cs" />
+    <Compile Include="WlbPartnerAddress.cs" />
+    <Compile Include="WlbPartnerContact.cs" />
+    <Compile Include="WlbProcessStatus.cs" />
+    <Compile Include="WlbReplenish.cs" />
+    <Compile Include="WlbSellerSubscription.cs" />
+    <Compile Include="WlbTmsOrder.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

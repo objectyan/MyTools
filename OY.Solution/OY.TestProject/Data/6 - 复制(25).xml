@@ -1,0 +1,43 @@
+﻿<wmsRealTimeInventoryBalanceQueryResponse>
+  <result>处理结果： 1-成功， 2-失败</result>
+  <remark>备注，如处理失败，此处可备注原因</remark>
+  <itemlist>
+    <item>
+      <company>货主</company>
+      <warehouse>仓库</warehouse>
+      <item>商品编号</item>
+      <total_stock>总库存数量</total_stock>
+      <on_hand_stock>在库库存数量</on_hand_stock>
+      <available_stock>可用库存数量</available_stock>
+      <in_transit_stock>在途库存数量</in_transit_stock>
+      <lot>批号</lot>
+      <expiration_date>有效期</expiration_date>
+      <inventory_sts>库存状态</inventory_sts>
+      <user_def1>预留字段</user_def1>
+      <user_def2>预留字段</user_def2>
+      <user_def3>预留字段</user_def3>
+      <user_def4>预留字段</user_def4>
+      <user_def5>预留字段</user_def5>
+      <user_def6>预留字段</user_def6>
+      <user_def7>预留字段</user_def7>
+      <user_def8>预留字段</user_def8>
+      <detaillist>
+        <detail>
+          <sub_warehouse>仓库</sub_warehouse>
+          <total_stock>总库存数量</total_stock>
+          <on_hand_stock>在库库存数量</on_hand_stock>
+          <available_stock>可用库存数量</available_stock>
+          <in_transit_stock>在途库存数量</in_transit_stock>
+          <user_def1>预留字段</user_def1>
+          <user_def2>预留字段</user_def2>
+          <user_def3>预留字段</user_def3>
+          <user_def4>预留字段</user_def4>
+          <user_def5>预留字段</user_def5>
+          <user_def6>预留字段</user_def6>
+          <user_def7>预留字段</user_def7>
+          <user_def8>预留字段</user_def8>
+        </detail>
+      </detaillist>
+    </item>
+  </itemlist>
+</wmsRealTimeInventoryBalanceQueryResponse>

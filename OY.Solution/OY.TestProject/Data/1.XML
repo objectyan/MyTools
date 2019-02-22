@@ -1,0 +1,44 @@
+﻿<wmsPurchaseOrderRequest>
+  <checkword>校验字段</checkword>
+  <header>
+    <company>货主</company>
+    <warehouse>仓库</warehouse>
+    <erp_order_num>采购订单号码</erp_order_num>
+    <erp_order_type>订单类型</erp_order_type>
+    <order_date>订单日期</order_date>
+    <buyer>采购员 </buyer>
+    <buyer_phone>采购员联系方式</buyer_phone>
+    <scheduled_receipt_date>预计收货时间</scheduled_receipt_date>
+    <source_id>供应商代码</source_id>
+    <transfer_warehouse>调出仓库代码</transfer_warehouse>
+    <original_order_no>原采购订单号</original_order_no>
+    <other_inbound_note>其它入库说明</other_inbound_note>
+    <note_to_receiver>备注</note_to_receiver>
+    <is_easy>是否是微仓订单</is_easy>
+    <user_def1>预留字段 1</user_def1>
+    <user_def2>预留字段 2</user_def2>
+    <user_def3>预留字段 3</user_def3>
+    <user_def4>预留字段 4</user_def4>
+    <user_def5>预留字段 5</user_def5>
+    <user_def6>预留字段 6</user_def6>
+    <user_def7>预留字段 7</user_def7>
+    <user_def8>预留字段 8</user_def8>
+  </header>
+  <detailList>
+    <item>
+      <erp_order_line_num>行号</erp_order_line_num>
+      <item>商品编号</item>
+      <total_qty>数量</total_qty>
+      <lot>批号</lot>
+      <note>备注</note>
+      <user_def1>预留字段 1</user_def1>
+      <user_def2>预留字段 2</user_def2>
+      <user_def3>预留字段 3</user_def3>
+      <user_def4>预留字段 4</user_def4>
+      <user_def5>预留字段 5</user_def5>
+      <user_def6>预留字段 6</user_def6>
+      <user_def7>预留字段 7</user_def7>
+      <user_def8>预留字段 8</user_def8>
+    </item>
+  </detailList>
+</wmsPurchaseOrderRequest>

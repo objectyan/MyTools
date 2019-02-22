@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DBAccess>
+  <Connection>
+    <type>
+      SQLServer
+    </type>
+    <connString>
+      
+    </connString>
+  </Connection>
+</DBAccess>

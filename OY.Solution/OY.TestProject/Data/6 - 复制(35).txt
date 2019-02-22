@@ -1,0 +1,5 @@
+﻿<wmsReverseOrderQueryRequest>
+<checkword>校验字段</checkword>
+<company>客户编码（货主） </company>
+<erp_order>订单号码</erp_order>
+</wmsReverseOrderQueryRequest>

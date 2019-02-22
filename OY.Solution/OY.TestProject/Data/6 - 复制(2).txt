@@ -1,0 +1,6 @@
+﻿<wmsSailOrderStatusQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<orderid>订单号码</orderid>
+<waybillno>运单号</waybillno>
+</wmsSailOrderStatusQueryRequest>

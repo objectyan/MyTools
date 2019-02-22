@@ -1,0 +1,91 @@
+﻿<wmsReverseOrderRequest>
+<checkword>校验字段</checkword>
+<header>
+<company>客户编号（货主） </company>
+<shop_name>商家店铺名称</shop_name>
+<erp_order>订单号码</erp_order>
+<sf_warehouse>是否顺丰仓库</sf_warehouse>
+<original_erp_order>原订单号码</original_erp_order>
+<original_waybill_no>原运单号</original_waybill_no>
+<original_carrier>原承运商</original_carrier>
+<order_type>订单类型</order_type>
+<order_date>下单日期</order_date>
+<return_type>退货地址类型（仓库/客户） </return_type>
+<warehouse>仓库</warehouse>
+<order_note>订单备注</order_note>
+<company_name>客户公司 </company_name>
+<company_attention_to>客户姓名 </company_attention_to>
+<company_country>客户国家或地区</company_country>
+<company_province>客户省</company_province>
+<company_city>客户市</company_city>
+<company_area>客户区/县</company_area>
+<company_address>客户地址</company_address>
+<company_postal_code>客户邮编</company_postal_code>
+<company_phone_num>客户手机</company_phone_num>
+<company_tel_num>客户固定电话</company_tel_num>
+<company_email_address>客户邮箱地址</company_email_address>
+<buyer_name>买家公司</buyer_name>
+<buyer_attention_to>买家姓名 </buyer_attention_to>
+<buyer_country>买家国家或地区</buyer_country>
+<buyer_province>买家省</buyer_province>
+<buyer_city>买家市</buyer_city>
+<buyer_area>买家区/县</buyer_area>
+<buyer_address>买家地址</buyer_address>
+<buyer_postal_code>买家邮编</buyer_postal_code>
+<buyer_phone_num>买家手机</buyer_phone_num>
+<buyer_tel_num>买家固定电话</buyer_tel_num>
+<buyer_email_address>买家邮箱地址</buyer_email_address>
+<user_def1>预留字段 1</user_def1>
+<user_def2>预留字段 2</user_def2>
+<user_def3>预留字段 3</user_def3>
+<user_def4>预留字段 4</user_def4>
+<user_def5>预留字段 5</user_def5>
+<user_def6>预留字段 6</user_def6>
+<user_def7>预留字段 7</user_def7>
+<user_def8>预留字段 8</user_def8>
+</header>
+<itemList>
+<item>
+<item_type>商品类型</item_type>
+<erp_order_line_num>行号</erp_order_line_num>
+<item>商品编号</item>
+<item_name>商品名称</item_name>
+<uom>单位</uom>
+<lot>批号</lot>
+<qty>数量</qty>
+<item_price>价格</item_price>
+<item_discount>优惠金额</item_discount>
+<bom_action>是否为组合商品</bom_action>
+<visual_inspection>外观</visual_inspection>
+<check_remark>收货备注</check_remark>
+<user_def1>预留字段 1</user_def1>
+<user_def2>预留字段 2</user_def2>
+<user_def3>预留字段 3</user_def3>
+<user_def4>预留字段 4</user_def4>
+<user_def5>预留字段 5</user_def5>
+<user_def6>预留字段 6</user_def6>
+<user_def7>预留字段 7</user_def7>
+<user_def8>预留字段 8</user_def8>
+</item>
+</itemList>
+<waybillList>
+<waybill>
+<waybill_type>运单类型</waybill_type>
+<carrier>承运商</carrier>
+<carrier_service>承运商服务类型</carrier_service>
+<from_flag>寄件方标识</from_flag>
+<self_pickup>是否自取件</self_pickup>
+<self_send>是否自寄件</self_send>
+<payment_of_charge>货主运费付款方式</payment_of_charge>
+<monthly_account>月结账号</monthly_account>
+<payment_district>付款地区：城市名称</payment_district>
+<if_msg>签收短信</if_msg>
+<company_note>商家备注</company_note>
+<cod>是否货到付款</cod>
+<amount>代收货款金额</amount>
+<value_insured>是否保价</value_insured>
+<declared_value>声明价值</declared_value>
+<return_receipt_service>签回单</return_receipt_service>
+</waybill>
+</waybillList>
+</wmsReverseOrderRequest>

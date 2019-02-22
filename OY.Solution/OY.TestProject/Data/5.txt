@@ -1,0 +1,32 @@
+﻿<wmsBomRequest>
+<checkword>校验字段</checkword>
+<header>
+<company>货主</company>
+<item>商品编号</item>
+<item_desc>BOM 货品描述</item_desc>
+<user_def1>预留字段</user_def1>
+<user_def2>预留字段</user_def2>
+<user_def3>预留字段</user_def3>
+<user_def4>预留字段</user_def4>
+<user_def5>预留字段</user_def5>
+<user_def6>预留字段</user_def6>
+<user_def7>预留字段</user_def7>
+<user_def8>预留字段</user_def8>
+</header>
+<detailList>
+<item>
+<build_sequence>组件序列</build_sequence>
+<item>组件 SKU</item>
+<item_desc>组件描述</item_desc>
+<qty_needed_per_item>组件数量</qty_needed_per_item>
+<user_def1>预留字段</user_def1>
+<user_def2>预留字段</user_def2>
+<user_def3>预留字段</user_def3>
+<user_def4>预留字段</user_def4>
+<user_def5>预留字段</user_def5>
+<user_def6>预留字段</user_def6>
+<user_def7>预留字段</user_def7>
+<user_def8>预留字段</user_def8>
+</item>
+</detailList>
+</wmsBomRequest>

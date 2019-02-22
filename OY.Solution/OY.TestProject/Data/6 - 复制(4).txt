@@ -1,0 +1,7 @@
+﻿<wmsInventorySNQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<item>商品 SKU 代码</item>
+<warehouse>仓库</warehouse>
+<inventory_sts>库存状态</inventory_sts>
+</wmsInventorySNQueryRequest>

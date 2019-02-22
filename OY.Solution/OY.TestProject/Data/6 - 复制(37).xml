@@ -1,0 +1,27 @@
+﻿<wmsReverseOrderStatusPushRequest>
+  <erp_order>订单号码</erp_order>
+  <stepList>
+    <step>
+      <deal_time>处理时间</deal_time>
+      <deal_status>订单状态</deal_status>
+      <deal_status_code>订单状态代码</deal_status_code>
+      <remark>备注</remark>
+    </step>
+  </stepList>
+  <waybillList>
+    <waybill>
+      <waybill_no>运单号</waybill_no>
+      <waybill_type>运单类型</waybill_type>
+      <waybill_description >运单描述</waybill_description>
+      <statusList>
+        <status>
+          <waybill_time>路由时间</waybill_time>
+          <waybill_address>路由城市</waybill_address>
+          <waybill_status>运单状态</waybill_status>
+          <waybill_status_code>运单状态代码</waybill_status_code>
+          <remark>备注</remark>
+        </status>
+      </statusList>
+    </waybill>
+  </waybillList>
+</wmsReverseOrderStatusPushRequest>

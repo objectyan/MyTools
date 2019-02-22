@@ -1,0 +1,4 @@
+﻿<Response>
+<success>处理结果： true-成功， false-失败</success>
+<reason>备注，如处理失败，此处可备注原因</reason>
+</Response>

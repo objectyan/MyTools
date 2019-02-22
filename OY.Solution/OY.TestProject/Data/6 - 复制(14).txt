@@ -1,0 +1,7 @@
+﻿<wmsSailOrderQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<warehouse>仓库</warehouse>
+<orderid>ERP 单号（ erp_order） </orderid>
+<item>货品编号</item>
+</wmsSailOrderQueryRequest>

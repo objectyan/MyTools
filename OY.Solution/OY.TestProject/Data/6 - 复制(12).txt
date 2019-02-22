@@ -1,0 +1,6 @@
+﻿<wmsPurchaseOrderQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<orderid>采购订单号码</orderid>
+<warehouse>仓库</warehouse>
+</wmsPurchaseOrderQueryRequest>

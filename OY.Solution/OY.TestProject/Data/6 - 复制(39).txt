@@ -1,0 +1,8 @@
+﻿<wmsReverseOrderWaybillSendRequest>
+<checkword>校验字段</checkword>
+<company>客户编码（货主） </company>
+<erp_order>订单号码</erp_order>
+<begin_time>预约开始时间</begin_time>
+<end_time>预约截止时间</end_time>
+<order_remark>备注</order_remark>
+</wmsReverseOrderWaybillSendRequest>

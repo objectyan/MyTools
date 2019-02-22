@@ -1,0 +1,23 @@
+﻿<wmsPurchaseOrderQueryResponse>
+<result>处理结果： 1-成功， 2-失败</result>
+<remark>备注，如处理失败，此处可备注原因</remark>
+ <header>
+ <erp_order_num>采购订单号码</erp_order_num>
+ <close_date>关单时间</close_date>
+ </header>
+ <detailList>
+ <item>
+ <id>记录号</id>
+ <erp_order_line_num>行号</erp_order_line_num>
+<sku_no>商品编号</sku_no>
+<qty>实收数量</qty>
+<lot>批号</lot>
+<expiration_date>有效期</expiration_date>
+<inventory_sts>库存状态</inventory_sts>
+<vendor>送货商</vendor>
+<serialNumberList>
+<serial_number>串号</serial_number>
+</serialNumberList>
+ </item>
+ </detailList>
+</wmsPurchaseOrderQueryResponse>

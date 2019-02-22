@@ -1,0 +1,4 @@
+*.vssscc
+packages
+BuildProcessTemplates
+*.vspscc

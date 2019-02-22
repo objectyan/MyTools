@@ -1,0 +1,10 @@
+﻿<wmsRealTimeInventoryBalanceQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<itemlist>
+<item>商品 SKU 代码 1</item>
+<item>商品 SKU 代码 2</item>
+</itemlist>
+<warehouse>仓库</warehouse>
+<inventory_sts>库存状态</inventory_sts>
+</wmsRealTimeInventoryBalanceQueryRequest>

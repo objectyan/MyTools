@@ -1,0 +1,111 @@
+﻿<wmsSailOrderRequest>
+  <checkword>校验字段</checkword>
+  <header>
+    <company>货主</company>
+    <warehouse>仓库</warehouse>
+    <shop_name>商家店铺名称</shop_name>
+    <erp_order>订单号码</erp_order>
+    <order_type>订单类型</order_type>
+    <order_date>下单日期</order_date>
+    <ship_from_name>寄件公司 </ship_from_name>
+    <ship_from_attention_to>寄件人</ship_from_attention_to>
+    <ship_from_country>寄件国家或地区</ship_from_country>
+    <ship_from_province>寄件省</ship_from_province>
+    <ship_from_city>寄件市</ship_from_city>
+    <ship_from_area>寄件区/县</ship_from_area>
+    <ship_from_address>寄件地址</ship_from_address>
+    <ship_from_postal_code>寄件邮编</ship_from_postal_code>
+    <ship_from_phone_num>寄件手机</ship_from_phone_num>
+    <ship_from_tel_num>寄件固定电话</ship_from_tel_num>
+    <ship_from_email_address>寄件邮箱地址</ship_from_email_address>
+    <ship_to_name>收件公司 </ship_to_name>
+    <ship_to_attention_to>收件人</ship_to_attention_to>
+    <ship_to_country>收件国家或地区</ship_to_country>
+    <ship_to_province>收件省</ship_to_province>
+    <ship_to_city>收件市</ship_to_city>
+    <ship_to_area>收件区/县</ship_to_area>
+    <ship_to_address>收件地址</ship_to_address>
+    <ship_to_postal_code>收件邮编</ship_to_postal_code>
+    <ship_to_phone_num>收件手机</ship_to_phone_num>
+    <ship_to_tel_num>收件固定电话</ship_to_tel_num>
+    <ship_to_email_address>收件邮箱地址</ship_to_email_address>
+    <carrier>承运商</carrier>
+    <carrier_service>承运商服务类型</carrier_service>
+    <route_numbers>路线编号</route_numbers>
+    <packing_note>货品包装备注</packing_note>
+    <complete_delivery>需整单发货</complete_delivery>
+    <freight>运费</freight>
+    <payment_of_charge>货主运费付款方式</payment_of_charge>
+    <payment_district>付款地区：城市名称</payment_district>
+    <cod>是否货到付款</cod>
+    <amount>代收货款金额</amount>
+    <self_pickup>是否上门自取</self_pickup>
+    <value_insured>是否保价</value_insured>
+    <declared_value>声明价值</declared_value>
+    <return_receipt_service>签回单</return_receipt_service>
+    <delivery_date>发货日期</delivery_date>
+    <delivery_requested>配送要求</delivery_requested>
+    <invoice>需要发票</invoice>
+    <invoice_type>发票类型</invoice_type>
+    <invoice_title>发票抬头</invoice_title>
+    <invoice_content>发票内容</invoice_content>
+    <order_note>订单备注</order_note>
+    <company_note>商家备注</company_note>
+    <priority>订单优先级</priority>
+    <order_total_amount>订单总金额</order_total_amount>
+    <order_discount>订单优惠金额</order_discount>
+    <balance_amount>余额支付金额</balance_amount>
+    <coupons_amount>优惠卷金额</coupons_amount>
+    <gift_card_amount>礼品卡金额</gift_card_amount>
+    <other_charge>其它金额</other_charge>
+    <actual_amount>实际支付金额</actual_amount>
+    <customer_payment_method>客户付款方式</customer_payment_method>
+    <monthly_account>月结账号</monthly_account>
+    <is_appoint_delivery>是否预约</is_appoint_delivery>
+    <appoint_delivery_status>预约状态</appoint_delivery_status>
+    <appoint_delivery_remark>预约备注</appoint_delivery_remark>
+    <from_flag>寄件方标识</from_flag>
+    <is_easy>是否是微仓订单</is_easy>
+    <user_def1>预留字段 1</user_def1>
+    <user_def2>预留字段 2</user_def2>
+    <user_def3>预留字段 3</user_def3>
+    <user_def4>预留字段 4</user_def4>
+    <user_def5>预留字段 5</user_def5>
+    <user_def6>预留字段 6</user_def6>
+    <user_def7>预留字段 7</user_def7>
+    <user_def8>预留字段 8</user_def8>
+    <user_def9>预留字段 9</user_def9>
+    <user_def10>预留字段 10</user_def10>
+    <user_def11>预留字段 11</user_def11>
+    <user_def12>预留字段 12</user_def12>
+    <user_def13>预留字段 13</user_def13>
+    <user_def14>预留字段 14</user_def14>
+    <user_def15>预留字段 15</user_def15>
+    <user_def16>预留字段 16</user_def16>
+    <user_def17>预留字段 17</user_def17>
+    <user_def18>预留字段 18</user_def18>
+    <user_def19>预留字段 19</user_def19>
+    <user_def20>预留字段 20</user_def20>
+  </header>
+  <detailList>
+    <item>
+      <erp_order_line_num>行号</erp_order_line_num>
+      <item>商品编号</item>
+      <item_name>商品名称</item_name>
+      <uom>单位</uom>
+      <lot>批号</lot>
+      <qty>数量</qty>
+      <item_price>价格</item_price>
+      <item_discount>优惠金额</item_discount>
+      <bom_action>是否为组合商品</bom_action>
+      <user_def1>预留字段 1</user_def1>
+      <user_def2>预留字段 2</user_def2>
+      <user_def3>预留字段 3</user_def3>
+      <user_def4>预留字段 4</user_def4>
+      <user_def5>预留字段 5</user_def5>
+      <user_def6>预留字段 6</user_def6>
+      <user_def7>预留字段 7</user_def7>
+      <user_def8>预留字段 8</user_def8>
+    </item>
+  </detailList>
+</wmsSailOrderRequest>

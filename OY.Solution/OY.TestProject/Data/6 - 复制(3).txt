@@ -1,0 +1,24 @@
+﻿<wmsSailOrderStatusQueryResponse>
+<result>处理结果： 1-成功， 2-失败</result>
+<remark>备注，如处理失败，此处可备注原因</remark>
+<order>
+<order_id>订单号码</order_id>
+<waybill_no>运单号</waybill_no>
+ <steps>
+<step>
+ <acceptTime>处理时间</acceptTime>
+ <acceptAddress>处理地点</acceptAddress>
+<acceptAddress>处理状态</acceptAddress>
+ <remark>处理结果</remark>
+<user_def1>预留字段</user_def1>
+<user_def2>预留字段</user_def2>
+<user_def3>预留字段</user_def3>
+<user_def4>预留字段</user_def4>
+<user_def5>预留字段</user_def5>
+<user_def6>预留字段</user_def6>
+<user_def7>预留字段</user_def7>
+<user_def8>预留字段</user_def8>
+ </step>
+ </steps>
+ </order>
+</wmsSailOrderStatusQueryResponse>

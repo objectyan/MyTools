@@ -1,0 +1,61 @@
+﻿<wmsSailOrderQueryResponse>
+<result>处理结果： 1-成功， 2-失败</result>
+<remark>备注，如处理失败，此处可备注原因</remark>
+<header>
+<company>货主</company>
+<warehouse>仓库</warehouse>
+<erp_order>ERP 单号</erp_order>
+<shipment_id>顺丰出库单号</shipment_id>
+<waybill_no>运单号</waybill_no>
+<actual_ship_date_time>发货时间</actual_ship_date_time>
+<carrier>承运商名 </carrier>
+<carrier_service>承运商服务类型 / SF: 时效类型</carrier_service>
+<user_def1>保留字段</user_def1>
+<user_def2>保留字段</user_def2>
+<user_def3>保留字段</user_def3>
+<user_def4>保留字段</user_def4>
+<user_def5>保留字段</user_def5>
+<user_def6>保留字段</user_def6>
+<user_def7>保留字段</user_def7>
+<user_def8>订单状态代码</user_def8>
+<user_stamp>操作人员</user_stamp>
+</header>
+<detailList>
+<item>
+<item>商品编号</item>
+<quantity>实发数量</quantity>
+<quantity_um>单位</quantity_um>
+<user_def1>预留字段</user_def1>
+<user_def2>预留字段</user_def2>
+<user_def3>预留字段</user_def3>
+<user_def4>预留字段</user_def4>
+<user_def5>预留字段</user_def5>
+<user_def6>预留字段</user_def6>
+<user_def7>预留字段</user_def7>
+<user_def8>预留字段</user_def8>
+</item>
+</detailList>
+<containerList>
+<item>
+<container_id>箱号</container_id>
+<item>货品编码</item>
+<quantity>数量</quantity>
+<quantity_um>数量单位</quantity_um>
+<lot>批号</lot>
+<weight>重量</weight>
+<weight_um>重量单位</weight_um>
+<user_stamp>包装员 </user_stamp>
+<user_def1>预留字段</user_def1>
+<user_def2>预留字段</user_def2>
+<user_def3>预留字段</user_def3>
+<user_def4>预留字段</user_def4>
+<user_def5>预留字段</user_def5>
+<user_def6>预留字段</user_def6>
+<user_def7>预留字段</user_def7>
+<user_def8>预留字段</user_def8>
+<serialNumberList>
+<serial_number>串号</serial_number>
+</serialNumberList>
+</item>
+</containerList>
+</wmsSailOrderQueryResponse>

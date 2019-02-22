@@ -1,0 +1,25 @@
+﻿<wmsInventoryAdjustPushInfo>
+<company>货主</company>
+<warehouse>仓库</warehouse>
+<adjustlist>
+<adjust>
+<item>SKU 代码</item>
+<direction>调整类型</direction>
+<quantity>数量</quantity>
+<inventory_sts>库存状态</inventory_sts>
+<lot>批号</lot>
+<transaction_type>交易类型</transaction_type>
+<user_def1>调整原因</user_def1>
+<user_def2>预留字段 2</user_def2>
+<user_def3>预留字段 3</user_def3>
+<user_def4>预留字段 4</user_def4>
+<user_def5>预留字段 5</user_def5>
+<user_def6>预留字段 6</user_def6>
+<user_def7>预留字段 7</user_def7>
+<user_def8>预留字段 8</user_def8>
+<activity_date_time>调整时间</activity_date_time>
+<before_on_hand_qty>修改前数量</before_on_hand_qty>
+<after_on_hand_qty>修改后数量</after_on_hand_qty>
+</adjust>
+</adjustlist>
+</wmsInventoryAdjustPushInfo>

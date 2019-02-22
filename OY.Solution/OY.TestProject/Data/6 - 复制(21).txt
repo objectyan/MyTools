@@ -1,0 +1,24 @@
+﻿<wmsInventoryBalancePushInfo>
+ <status>推送状态</status>
+<inventory_version>库存版本</inventory_version>
+<inventory_time>库存时间</inventory_time>
+ <list>
+ <item>
+ <company>货主</company>
+ <warehouse>仓库</warehouse>
+ <item>商品编号</item>
+ <on_hand_qty>在库库存数量</on_hand_qty>
+ <lot>批号</lot>
+ <expiration_date>有效期</expiration_date>
+ <inventorySts>库存状态</inventorySts>
+ <user_def1>预留字段</user_def1>
+ <user_def2>预留字段</user_def2>
+ <user_def3>预留字段</user_def3>
+ <user_def4>预留字段</user_def4>
+ <user_def5>预留字段</user_def5>
+ <user_def6>预留字段</user_def6>
+ <user_def7>预留字段</user_def7>
+ <user_def8>预留字段</user_def8>
+ </item>
+ </list>
+</wmsInventoryBalancePushInfo>

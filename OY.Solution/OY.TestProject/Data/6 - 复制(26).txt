@@ -1,0 +1,8 @@
+﻿<wmsItemChangeQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<item>商品</item>
+<begindate>开始日期</begindate>
+<enddate>结束日期</enddate>
+<page_index>页码</page_index>
+</wmsItemChangeQueryRequest>

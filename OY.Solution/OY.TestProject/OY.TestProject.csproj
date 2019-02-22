@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8653F98E-D371-497D-98CB-BADB5DF323A2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OY.TestProject</RootNamespace>
+    <AssemblyName>OY.TestProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\OY.Common\Library\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NPOI">
+      <HintPath>..\OY.Common\Library\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\OY.Common\Library\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\OY.Common\Library\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\OY.Common\Library\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonUtilTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlToClassUtilTest.cs" />
+    <Compile Include="WebToImageUnitTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OY.Common\OY.Common.csproj">
+      <Project>{6796F266-8162-4BA5-AB79-B1B1A4E57D3D}</Project>
+      <Name>OY.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OY.TopSdk\TopSdk.csproj">
+      <Project>{9C11CAE5-5188-4E71-825B-68FC3135728A}</Project>
+      <Name>TopSdk</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\6 - 复制%2810%29.txt" />
+    <Content Include="Data\6 - 复制%2811%29.txt" />
+    <Content Include="Data\6 - 复制%2812%29.txt" />
+    <Content Include="Data\6 - 复制%2813%29.txt" />
+    <Content Include="Data\6 - 复制%2814%29.txt" />
+    <Content Include="Data\6 - 复制%2815%29.txt" />
+    <Content Include="Data\6 - 复制%2816%29.txt" />
+    <Content Include="Data\6 - 复制%2817%29.txt" />
+    <Content Include="Data\6 - 复制%2818%29.txt" />
+    <Content Include="Data\6 - 复制%2819%29.txt" />
+    <Content Include="Data\6 - 复制%282%29.txt" />
+    <Content Include="Data\6 - 复制%2821%29.txt" />
+    <Content Include="Data\6 - 复制%2823%29.txt" />
+    <Content Include="Data\6 - 复制%2824%29.txt" />
+    <Content Include="Data\6 - 复制%2825%29.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\6 - 复制%2826%29.txt" />
+    <Content Include="Data\6 - 复制%2827%29.XML">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\6 - 复制%2828%29.txt" />
+    <Content Include="Data\6 - 复制%2829%29.txt" />
+    <Content Include="Data\6 - 复制%283%29.txt" />
+    <Content Include="Data\6 - 复制%2830%29.txt" />
+    <Content Include="Data\6 - 复制%2831%29.txt" />
+    <Content Include="Data\6 - 复制%2832%29.txt" />
+    <Content Include="Data\6 - 复制%2833%29.txt" />
+    <Content Include="Data\6 - 复制%2834%29.txt" />
+    <Content Include="Data\6 - 复制%2835%29.txt" />
+    <Content Include="Data\6 - 复制%2836%29.XML">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\6 - 复制%2837%29.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\6 - 复制%2838%29.txt" />
+    <Content Include="Data\6 - 复制%2839%29.txt" />
+    <Content Include="Data\6 - 复制%284%29.txt" />
+    <Content Include="Data\6 - 复制%2840%29.txt" />
+    <Content Include="Data\6 - 复制%285%29.txt" />
+    <Content Include="Data\6 - 复制%286%29.txt" />
+    <Content Include="Data\6 - 复制%287%29.txt" />
+    <Content Include="Data\6 - 复制%288%29.txt" />
+    <Content Include="Data\6 - 复制%289%29.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\6 - 复制.txt" />
+    <Content Include="Data\6.txt" />
+    <Content Include="Data\5.txt" />
+    <Content Include="Data\4.txt" />
+    <Content Include="Data\1.XML" />
+    <Content Include="Data\3.txt" />
+    <Content Include="Data\2.xml">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

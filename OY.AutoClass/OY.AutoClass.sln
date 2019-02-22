@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OY.AutoClass", "OY.AutoClass\OY.AutoClass.csproj", "{32F51299-B987-46EF-89B9-CA3C5620C3C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OY.AutoClass.Business", "OY.AutoClass.Business\OY.AutoClass.Business.csproj", "{5E977D0F-597E-4756-AB56-7B3555E14614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OY.AutoClass.DBAccess", "OY.AutoClass.DBAccess\OY.AutoClass.DBAccess.csproj", "{E49138FD-F81A-4207-9D3B-FBAAEC47FBFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OY.AutoClass.Document", "OY.AutoClass.Document\OY.AutoClass.Document.csproj", "{9177C67E-2603-41D1-9A7D-AE64BFE9E24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OY.AutoClass.Test", "OY.AutoClass.Test\OY.AutoClass.Test.csproj", "{DCDE72DF-A55B-4260-A361-899AF8316C0B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://objectyan.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OY.AutoClass\\OY.AutoClass.csproj
+		SccProjectName1 = OY.AutoClass
+		SccLocalPath1 = OY.AutoClass
+		SccProjectUniqueName2 = OY.AutoClass.Business\\OY.AutoClass.Business.csproj
+		SccProjectName2 = OY.AutoClass.Business
+		SccLocalPath2 = OY.AutoClass.Business
+		SccProjectUniqueName3 = OY.AutoClass.DBAccess\\OY.AutoClass.DBAccess.csproj
+		SccProjectName3 = OY.AutoClass.DBAccess
+		SccLocalPath3 = OY.AutoClass.DBAccess
+		SccProjectUniqueName4 = OY.AutoClass.Document\\OY.AutoClass.Document.csproj
+		SccProjectName4 = OY.AutoClass.Document
+		SccLocalPath4 = OY.AutoClass.Document
+		SccProjectUniqueName5 = OY.AutoClass.Test\\OY.AutoClass.Test.csproj
+		SccProjectName5 = OY.AutoClass.Test
+		SccLocalPath5 = OY.AutoClass.Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F51299-B987-46EF-89B9-CA3C5620C3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F51299-B987-46EF-89B9-CA3C5620C3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F51299-B987-46EF-89B9-CA3C5620C3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F51299-B987-46EF-89B9-CA3C5620C3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E977D0F-597E-4756-AB56-7B3555E14614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E977D0F-597E-4756-AB56-7B3555E14614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E977D0F-597E-4756-AB56-7B3555E14614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E977D0F-597E-4756-AB56-7B3555E14614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49138FD-F81A-4207-9D3B-FBAAEC47FBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49138FD-F81A-4207-9D3B-FBAAEC47FBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49138FD-F81A-4207-9D3B-FBAAEC47FBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49138FD-F81A-4207-9D3B-FBAAEC47FBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9177C67E-2603-41D1-9A7D-AE64BFE9E24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9177C67E-2603-41D1-9A7D-AE64BFE9E24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9177C67E-2603-41D1-9A7D-AE64BFE9E24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9177C67E-2603-41D1-9A7D-AE64BFE9E24C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCDE72DF-A55B-4260-A361-899AF8316C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCDE72DF-A55B-4260-A361-899AF8316C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCDE72DF-A55B-4260-A361-899AF8316C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCDE72DF-A55B-4260-A361-899AF8316C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

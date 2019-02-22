@@ -1,0 +1,9 @@
+﻿<wmsInventoryAdjustQueryRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<item_no>商品 SKU 代码</item_no>
+<warehouse>仓库</warehouse>
+<lot>批号</lot>
+<begindate>开始日期</begindate>
+<enddate>结束日期</enddate>
+</wmsInventoryAdjustQueryRequest>

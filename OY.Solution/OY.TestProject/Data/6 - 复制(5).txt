@@ -1,0 +1,15 @@
+﻿<wmsInventorySNQueryResponse>
+<result>处理结果： 1-成功， 2-失败</result>
+<remark>备注，如处理失败，此处可备注原因</remark>
+<company>货主</company>
+<warehouse>仓库</warehouse>
+<list>
+<item>
+<item_no>SKU 代码</item_no>
+<inventory_sts>库存状态</inventory_sts>
+<snList>
+<sn>串号</sn>
+</snList>
+</item>
+</list>
+</wmsInventorySNQueryResponse>

@@ -1,0 +1,5 @@
+﻿<wmsCancelSailOrderResponse>
+<orderid>要取消的出库单号(ERP 单号) </orderid>
+<result>处理结果： 1-成功， 2-失败， 3-取消中</result>
+<remark>备注，如处理失败，此处可备注原因</remark>
+</wmsCancelSailOrderResponse>

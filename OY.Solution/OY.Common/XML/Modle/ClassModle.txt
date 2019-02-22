@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Xml.Serialization;
+
+namespace OY.Common.XML.Modle
+{
+    [Serializable]
+    [XmlRoot("{XmlRootName}")]
+    public class {XmlRootName}
+    {
+        #region 私有字段
+        {privateData}
+        #endregion
+
+        #region 私有字段
+        {publicData}
+        #endregion
+    }
+}

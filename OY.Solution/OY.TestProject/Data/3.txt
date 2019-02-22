@@ -1,0 +1,5 @@
+﻿<wmsCancelSailOrderRequest>
+<checkword>校验字段</checkword>
+<company>货主</company>
+<orderid>要取消的出库单号(ERP 单号) </orderid>
+</wmsCancelSailOrderRequest>

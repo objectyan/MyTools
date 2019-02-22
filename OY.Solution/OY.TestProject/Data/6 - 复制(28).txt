@@ -1,0 +1,78 @@
+﻿<wmsItemChangePushInfo>
+<item>商品</item>
+<data_id>记录号</data_id>
+<user_stamp>操作人</user_stamp>
+<process_tm>操作时间</process_tm>
+<description>商品名称</description>
+<department>品牌中文描述</department>
+<division>物品规格描述</division>
+<long_description>质检标准</long_description>
+<item_category1>商品种类 1</item_category1>
+<item_category2>商品种类 2</item_category2>
+<item_category3>是否禁航</item_category3>
+<item_category4>商品种类 4</item_category4>
+<item_category5>商品种类 5</item_category5>
+<item_category6>商品种类 6</item_category6>
+<item_category7>商品种类 7</item_category7>
+<item_category8>商品种类 8</item_category8>
+<item_category9>商品种类 9</item_category9>
+<item_category10>商品种类 10</item_category10>
+<item_class>货品类</item_class>
+<item_color>颜色</item_color>
+<item_size>尺寸</item_size>
+<storage_template>存储模板</storage_template>
+<item_style>保质期前置天数</item_style>
+<sequence_1>序号 1</sequence_1>
+<conversion_qty_1>数量单位 1 转换比例</conversion_qty_1>
+<height_1>高</height_1>
+<width_1>宽</width_1>
+<length_1>长</length_1>
+<weight_1>重量</weight_1>
+<quantity_um_1>货品数量单位 1</quantity_um_1>
+<weight_um_1>重量单位 1</weight_um_1>
+<dimension_um_1>尺寸单位 1</dimension_um_1>
+<treat_as_loose_1>包装单位 1 视为零头</treat_as_loose_1>
+<sequence_2>序号 2</sequence_2>
+<conversion_qty_2>数量单位 2 转换比例</conversion_qty_2>
+<height_2>高</height_2>
+<width_2>宽</width_2>
+<length_2>长</length_2>
+<weight_2>重量</weight_2>
+<quantity_um_2>货品数量单位 2</quantity_um_2>
+<weight_um_2>重量单位 2</weight_um_2>
+<dimension_um_2>尺寸单位 2</dimension_um_2>
+<treat_as_loose_2>包装单位 2 视为零头</treat_as_loose_2>
+<sequence_3>序号 3</sequence_3>
+<conversion_qty_3>数量单位 3 转换比例</conversion_qty_3>
+<height_3>高</height_3>
+<width_3>宽</width_3>
+<length_3>长</length_3>
+<weight_3>重量</weight_3>
+<quantity_um_3>货品数量单位 3</quantity_um_3>
+<weight_um_3>重量单位 3</weight_um_3>
+<dimension_um_3>尺寸单位 3</dimension_um_3>
+<treat_as_loose_3>包装单位 3 视为零头</treat_as_loose_3>
+<sequence_4>序号 4</sequence_4>
+<conversion_qty_4>数量单位 4 转换比例</conversion_qty_4>
+<height_4>高</height_4>
+<width_4>宽</width_4>
+<length_4>长</length_4>
+<weight_4>重量</weight_4>
+<quantity_um_4>货品数量单位 4</quantity_um_4>
+<weight_um_4>重量单位 4</weight_um_4>
+<dimension_um_4>尺寸单位 4</dimension_um_4>
+<treat_as_loose_4>包装单位 4 视为零头</treat_as_loose_4>
+<lot_controlled>是否批号控制</lot_controlled>
+<lot_template>批次模板</lot_template>
+<serial_num_track_inbound>入库序列号跟踪</serial_num_track_inbound>
+<serial_num_track_outbound>出库序列号跟踪</serial_num_track_outbound>
+<bom_action>是否 BOM 主件</bom_action>
+<user_def1>预留字段</user_def1>
+<user_def2>预留字段</user_def2>
+<user_def3>预留字段</user_def3>
+<user_def4>预留字段</user_def4>
+<user_def5>预留字段</user_def5>
+<user_def6>预留字段</user_def6>
+<user_def7>预留字段</user_def7>
+<user_def8>预留字段</user_def8>
+</wmsItemChangePushInfo>
